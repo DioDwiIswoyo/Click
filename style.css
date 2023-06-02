@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #091020;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 140px;
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgb(6, 226, 226);
+    box-shadow: 0 0 5px rgb(6, 226, 226),
+                0 0 20px rgb(6, 226, 226),
+                0 0 40px rgb(6, 226, 226);
+}
